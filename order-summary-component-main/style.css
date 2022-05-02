@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+.hero-img {
+  max-width: 100%;
+}
+body {
+  background-color: aquamarine;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 1.25rem;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsl(223, 47%, 23%);
+  line-height: 3;
+}
+.card-text {
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+}
+.hero-img {
+  border-radius: 5% 5% 0 0;
+}
+.card-container {
+  background-color: white;
+  border-radius: 5%;
+  margin: 1.25rem;
+  width: 400px;
+}
+.card-txt {
+  text-align: center;
+}
+.music-img {
+  height: 40px;
+  width: 40px;
+  margin: auto;
+}
+.link {
+  margin: auto;
+}
+.price {
+  margin: auto;
+}
+.music-icon {
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 1.25rem;
+  line-height: 1;
+}
+
+.payment:hover {
+  background-color: hsl(245, 75%, 52%);
+}
+.payment-button {
+  background-color: hsl(245, 75%, 52%);
+  font-weight: 1000;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1.25rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(57, 57, 184, 0);
+  color: white;
+}
+.payment-button:hover {
+  background-color: hsl(228, 45%, 44%);
+}
+.cancel-button {
+  background-color: whitesmoke;
+  align-items: center;
+  background-color: whitesmoke;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 1.25rem;
+  cursor: pointer;
+}
+.cancel-button:hover {
+  color: hsl(223, 47%, 23%);
+}
